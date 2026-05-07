@@ -18,3 +18,5 @@ Typescript Frontend
 Typescript Backend
 Hosted on Vercel
 Database with MongoDB
+
+Make the site 60% white, 30% black, 10% #66AA3C

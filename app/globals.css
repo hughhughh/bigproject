@@ -2,12 +2,25 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #0a0a0a;
+  --accent: #66aa3c;
+  --accent-foreground: #0a0a0a;
+  --border: rgba(0, 0, 0, 0.1);
+  --muted: rgba(0, 0, 0, 0.65);
+  --surface: #ffffff;
+  --surface-2: #f4f4f5;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent-ink: var(--accent-foreground);
+  --color-border: var(--border);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -16,11 +29,16 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --surface: #0f0f10;
+    --surface-2: #171717;
+    --border: rgba(255, 255, 255, 0.16);
+    --muted: rgba(255, 255, 255, 0.7);
+    --accent-foreground: #0a0a0a;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Inter, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
